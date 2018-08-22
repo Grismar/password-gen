@@ -41,7 +41,7 @@ if show:
     print(f'Password: {pwd}')
 
 if share:
-    # put it on the clipboard for 12 seconds, or until interrupted
+    # put it on the clipboard for {delay} seconds, or until interrupted
     pyperclip.copy(pwd)
     print(f'Password on clipboard for {delay} seconds (Ctrl-C to stop now)...')
     try:
