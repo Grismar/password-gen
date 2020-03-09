@@ -1,4 +1,2 @@
 .idea/
-*.pyc
-*.pyo
-*.pyd
+*.py[ocd]
